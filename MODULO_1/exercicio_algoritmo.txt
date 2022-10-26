@@ -1,0 +1,46 @@
+Crhistian F. Silva
+
+Entender situações do cotidiano… para tomada de decisão 
+
+var 
+qnty_People: int
+smoker: bollean
+animals: boolean
+
+inicio
+
+escreva("table for how many people ?:");
+leia(qnty_People);
+escreva("Has a Smoker ?:" );
+leia(smoker);
+escreva("Have an Animal ?:" );
+leia(animals);
+
+se((smoker == true) || (animals ==true));
+escreva("direct to outdorr area")
+se((qnty_People >= 5) && (animals == false) && (smoker ==false);
+escreva("direct to 1st floor")
+se( (qnty_People <5) && (smoker == false) && (animals == false);
+escreva("direct to ground area")
+
+fim se
+
+fim algoritmo
+
+
+Usar métodos de repetição… agilizar os processos 
+
+var
+teamName: caractere
+var int numberFighters < - 5
+var caracetere fighter <- teamName + "-" + 1
+
+inicio
+
+escreva(" What´s your´s team name ?: ")
+leia(teamName)
+enquanto (numberFighters < 5)
+escreva(fighter)
+fim enquanto
+
+fim algoritmo

@@ -1,0 +1,11 @@
+comando atribuicao <-
+
+x <-10 
+variavel ``x´´ vale 10
+
+
+caractere Nome <- José Almeida da Silva
+Inteiro CPF <- 12345678900
+Inteiro RG <- 9517530
+Real Altura <- 1,78 
+cactere Endereço <- Rua A, - Centro - Recife/PE

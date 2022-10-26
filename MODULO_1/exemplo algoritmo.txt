@@ -1,0 +1,30 @@
+Var 
+
+titulo : caracter 
+
+nota : inteiro 
+
+criancas : lógico 
+
+comentario : caracter 
+
+ 
+
+Inicio 
+
+escreva(“Titulo do filme: “); 
+
+leia(titulo); 
+
+escreva(“Pontuação: “); 
+
+leia(nota); 
+
+escreva(“É um filme para toda a familia: “); 
+
+leia(criancas); 
+
+escreva(“Escreva um comentário: “); 
+
+leia(comentario); 
+FimAlgoritmo

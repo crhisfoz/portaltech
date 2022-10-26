@@ -1,0 +1,24 @@
+inicio 
+var 
+nome: caracter
+var 
+Endereço: caracter
+var 
+Cidade: caracter
+var 
+CPF: inteiro
+var
+RG: inteiro
+
+escreva("Nome;", nome)
+leia(Nome)
+escreva("Endereço;", Endereço)
+leia(Endereço)
+escreva("Cidade;", Cidade)
+leia(Cidade)
+escreva("CPF;", CPF)
+leia(CPF)
+escreva("RG;", RG)
+leia(RG)
+final
+
