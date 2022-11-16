@@ -1,0 +1,43 @@
+def calculate():
+    operation = int(input("insert the number operation that you´re should wish make it, he must be: 1) addition , "
+                          "2) subctration, 3) multiply, 4) divide: "))
+
+    number_1 = int(input("Please enter the first number: "))
+    number_2 = int(input("Please enter the second number: "))
+
+    if operation == 1:
+        print(number_1, "+", number_2)
+        print(int(number_1) + int(number_2))
+        again()
+
+    elif operation == 2:
+        print(number_1, "-", number_2)
+        print(number_1 - number_2)
+        again()
+
+    elif operation == 3:
+        print(number_1, "*", number_2)
+        print(number_1 * number_2)
+        again()
+
+    elif operation == 4:
+        print(number_1, "/", number_2)
+        print(number_1 / number_2)
+        again()
+    else:
+        print('You have not typed a valid operator, please run the program again.')
+        again()
+
+
+def again():
+    calc_again = input(" Do you want to calculate again? Please type:  Y for YES or 0 for NO: ")
+
+    if calc_again.upper() == 'Y':
+        calculate()
+    elif calc_again == "0":
+        print('See you later.')
+    else:
+        again()
+
+
+calculate()
