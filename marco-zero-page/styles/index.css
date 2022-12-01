@@ -22,5 +22,8 @@ header div img{
     margin-right: 3rem;
     width:12rem;
     border-radius: 50%;
-    
+}
+
+li{
+    list-style-type: none;
 }

@@ -9,6 +9,6 @@ nav{
     display: flex;
     flex-direction: column;
 }
-header, section li{
+li{
     list-style-type: none;
 }
