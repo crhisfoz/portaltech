@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    padding: 5px;
+    
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+header, section li{
+    list-style-type: none;
+}

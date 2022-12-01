@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    padding: 5px;
+    
+}
+header{
+    display: flex;
+    flex-direction: column;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+}
+
+header div{
+    display: flex;
+}
+
+header div img{
+    margin-right: 3rem;
+    width:12rem;
+    border-radius: 50%;
+    
+}
