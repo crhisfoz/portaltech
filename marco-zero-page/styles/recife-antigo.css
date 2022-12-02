@@ -3,12 +3,55 @@
     padding: 0;
     background-color: antiquewhite;
     padding: 5px;
+    font-family: Raleway;
     
 }
-nav{
+:root{
+    --white: #fff;
+    --sienna: #A0522D;
+}
+header{
     display: flex;
     flex-direction: column;
+    color:rgb(68, 0, 255)
 }
+h1{
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em var(--white)
+}
+h4{
+    font-size: 1.5em;
+    color: var(--sienna);
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+header div{
+    display: flex;
+}
+
+header div img{
+    margin-right: 3rem;
+    width:12rem;
+    border-radius: 50%;
+}
+nav a{
+    color: var(--sienna)
+}
+
 li{
     list-style-type: none;
+}
+
+header,section, footer{
+    border: solid 3px var(--white);
+    border-radius: 12px;
+}
+
+section img{
+    width: 99%;
+    border-radius: 12px;
 }
